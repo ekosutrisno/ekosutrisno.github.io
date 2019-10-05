@@ -20,6 +20,25 @@
   <!-- Custom styles-->
   <link href="css/scrolling-nav.css" rel="stylesheet">
 
+
+  <!-- my style -->
+  <style>
+    /* bg-fixed */
+    .bb-image {
+      background: url(vendor/img/bg_1.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    /* bg-static */
+    .bb-image {
+      background: url(vendor/img/bg_1.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+
 </head>
 
 <body id="page-top">
@@ -57,13 +76,14 @@
 
   <header class="bg-light t-black">
     <div class="container text-center">
-      <img src="vendor/img/logo/Full-B.png" alt="my-pict" width="300" height="300">
+      <img src="vendor/img/logo/Full-B.png" alt="my-pict" width="30%" height="3%">
       <h4>Welcome to <kbd>Eko Design</kbd></h4>
       <p class="lead">This website is my portofolio, all about me</p>
+      <a href="#contact" class="btn btn-outline-dark js-scroll-trigger">Create new project</a>
     </div>
   </header>
 
-  <section id="about" class="b-black text-white">
+  <section id="about" class="text-white bb-image">
     <div class="container">
       <div class="row">
         <div class="col-lg4 mx-auto mb-4"><img src="vendor/img/Icon/icons8_Workflow_520px_1.png" alt="flow" width="125"
@@ -86,24 +106,135 @@
     </div>
   </section>
 
+  <!-- services -->
   <section id="services" class="bg-light">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Services we offer</h2>
+        <div class="col-lg-8 mx-auto text-center">
+          <h2>Services</h2>
           <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita
             quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore
             ut velit dignissimos.</p>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg mx-auto text-center mt-5">
+          <div class="card b-black p-3">
+            <div class="card-img-top">
+              <img src="vendor/img/Icon/icons8_Vegas_512px.png" alt="im_1" width="25%">
+            </div>
+            <div class="card-body">
+              <p class="lead text-white">Sony Vegas</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg mx-auto text-center mt-5">
+          <div class="card b-black p-3">
+            <div class="card-img-top">
+              <img src="vendor/img/Icon/icons8_Microsoft_Word_520px.png" alt="im_1" width="25%">
+            </div>
+            <div class="card-body">
+              <p class="lead text-white">Ms.Word</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg mx-auto text-center mt-5">
+          <div class="card b-black p-3">
+            <div class="card-img-top">
+              <img src="vendor/img/Icon/icons8_Microsoft_Excel_520px.png" alt="im_1" width="25%">
+            </div>
+            <div class="card-body">
+              <p class="lead text-white">Ms.Excel</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg mx-auto text-center mt-5">
+          <div class="card b-black p-3">
+            <div class="card-img-top">
+              <img src="vendor/img/Icon/icons8_Microsoft_PowerPoint_520px.png" alt="im_1" width="25%">
+            </div>
+            <div class="card-body">
+              <p class="lead text-white">Ms.PowerPoint</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-lg mx-auto mt-5 text-center"><a href="#contact"
+            class="btn btn-outline-dark js-scroll-trigger">Go to skill</a></div>
+
+      </div>
+    </div>
+
+  </section>
+  <!-- end service  -->
+
+
+  <!-- my skill -->
+  <section id="skill" class="b-black text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2>Skill</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita
+            quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore
+            ut velit dignissimos.</p>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg mx-auto text-center mt-5">
+          <div class="card b-black p-3 shadow-sm">
+            <div class="card-img-top">
+              <img src="vendor/img/Icon/icons8_Adobe_Indesign_520px.png" alt="im_1" width="25%">
+            </div>
+            <div class="card-body">
+              <p class="lead text-white">Indesign</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg mx-auto text-center mt-5">
+          <div class="card b-black p-3 shadow-sm">
+            <div class="card-img-top">
+              <img src="vendor/img/Icon/icons8_Adobe_Illustrator_520px.png" alt="im_1" width="25%">
+            </div>
+            <div class="card-body">
+              <p class="lead text-white">Ilustartor</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg mx-auto text-center mt-5">
+          <div class="card b-black p-3 shadow-sm">
+            <div class="card-img-top">
+              <img src="vendor/img/Icon/icons8_Adobe_Photoshop_520px.png" alt="im_1" width="25%">
+            </div>
+            <div class="card-body">
+              <p class="lead text-white">Photoshop</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg mx-auto text-center mt-5">
+          <div class="card b-black p-3 shadow-sm">
+            <div class="card-img-top">
+              <img src="vendor/img/Icon/icons8_WebMoney_500px.png" alt="im_1" width="25%">
+            </div>
+            <div class="card-body">
+              <p class="lead text-white">New design</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
+  <!-- end skill  -->
 
+  <!-- contact  -->
   <section id="contact">
     <div class="container t-black">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
-          <h2 class="mb-3">Penulis</h2>
+          <h2 class="mb-3">Contact</h2>
           <img class="rounded-circle img-thumbnail mb-3" src="vendor/img/porfil.png" width="150px" height="150px" />
           <h3 class="">Eko Sutrisno</h3>
 
@@ -125,8 +256,8 @@
           <!-- sosmed -->
 
           <p class="lead">
-            "Generasi milineal harus mulai memimpin perkembanngan teknologi yang terus bergerak maju, terutama dalam
-            sistem pembayaran guna meningkatkan daya saing ekonomi kita dengan negara lain" <br>
+            "Kita harus mulai mengikuti perkembanngan teknologi agar mampu bersaing dengan negara
+            lain" <br>
             - eko sutrisno -
           </p>
         </div>
@@ -135,9 +266,19 @@
   </section>
 
   <!-- Footer -->
-  <footer class="py-5 b-black">
+  <footer class="py-5 bb-image">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Eko Sutrisno 2019</p>
+      <div class="row">
+        <div class="col-md text-center mx-auto">
+          <img class="m-3" src="vendor/img/Icon/icons8_HTML_520px.png" width="5%">
+          <img class="m-3" src="vendor/img/Icon/icons8_CSS_520px.png" width="5%">
+          <img class="m-3" src="vendor/img/Icon/icons8_SQL_520px.png" width="5%">
+          <img class="m-3" src="vendor/img/Icon/icons8_JS_520px.png" width="5%">
+        </div>
+        <div class="col-md mt-1">
+          <p class="m-0 text-center text-white">Copyright &copy; Eko Sutrisno 2019</p>
+        </div>
+      </div>
     </div>
     <!-- /.container -->
   </footer>
